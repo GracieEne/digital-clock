@@ -18,3 +18,9 @@ body{
     background-color: hsl(0, 0%, 100%, 0.1);
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    #clock{
+        font-size: 2.5rem;
+    }
+}
