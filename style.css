@@ -20,7 +20,11 @@ body{
 }
 
 @media (max-width: 768px) {
+    .clock-container{
+        min-height: 100dvh;
+    }
     #clock{
         font-size: 2.5rem;
+        width: fit-content;
     }
 }
